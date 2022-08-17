@@ -38,6 +38,7 @@
 		50CA6D2B28AC917E002C023F /* Favorites+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA6D2928AC917E002C023F /* Favorites+CoreDataClass.swift */; };
 		50CA6D2C28AC917E002C023F /* Favorites+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA6D2A28AC917E002C023F /* Favorites+CoreDataProperties.swift */; };
 		50CA6D2E28AC9216002C023F /* FavoritesRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA6D2D28AC9216002C023F /* FavoritesRepositoryDefault.swift */; };
+		50CA6D3128ACAE39002C023F /* FavoritesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA6D3028ACAE39002C023F /* FavoritesRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		50CA6D2928AC917E002C023F /* Favorites+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites+CoreDataClass.swift"; sourceTree = "<group>"; };
 		50CA6D2A28AC917E002C023F /* Favorites+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		50CA6D2D28AC9216002C023F /* FavoritesRepositoryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRepositoryDefault.swift; sourceTree = "<group>"; };
+		50CA6D3028ACAE39002C023F /* FavoritesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +148,6 @@
 				50CA6CE828AB4384002C023F /* Application */,
 				50CA6CEA28AB4394002C023F /* Modules */,
 				50CA6D0128AB53BC002C023F /* Models */,
-				50CA6CFE28AB5363002C023F /* Interefaces */,
 				50CA6CFD28AB5333002C023F /* Repositories */,
 				50CA6CFA28AB5260002C023F /* Endpoints */,
 				50CA6CF928AB5252002C023F /* Workers */,
@@ -247,6 +248,7 @@
 		50CA6CFD28AB5333002C023F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				50CA6CFE28AB5363002C023F /* Interefaces */,
 				50CA6D0828AB54BF002C023F /* RestaurantRepositoryDefault.swift */,
 				50CA6D2D28AC9216002C023F /* FavoritesRepositoryDefault.swift */,
 			);
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				50CA6CFF28AB5377002C023F /* RestaurantsRepository.swift */,
+				50CA6D3028ACAE39002C023F /* FavoritesRepository.swift */,
 			);
 			path = Interefaces;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				50CA6D2B28AC917E002C023F /* Favorites+CoreDataClass.swift in Sources */,
 				50CA6D2028AC8C62002C023F /* LocalStorageStack.swift in Sources */,
 				50CA6D0F28AB5D04002C023F /* HomePresenter.swift in Sources */,
+				50CA6D3128ACAE39002C023F /* FavoritesRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

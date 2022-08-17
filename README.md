@@ -25,3 +25,6 @@ What i did? well, my idea was create an array of Restaurant Strings and compare 
 Every time a restaurant is added to favorites, core data saves it and the array of UUIDs is updated. The same if a restaurant is removed from favorites.
 
 Maybe it is not the best solution, but it works. -.-
+
+## Techincal Debt
+- Error Handling
