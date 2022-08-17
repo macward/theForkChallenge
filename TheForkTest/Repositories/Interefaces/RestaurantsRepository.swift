@@ -10,10 +10,3 @@ import Foundation
 protocol RestaurantRepository {
     func fetch() async throws -> [Restaurant]?
 }
-
-protocol FavoritesRepository {
-    func loadFavorites() async -> [String]
-    func removeFromFavorites()
-    func addToFavorites()
-    func getWithContent(_ uuid: String)
-}
