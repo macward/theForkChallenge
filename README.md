@@ -28,3 +28,5 @@ Maybe it is not the best solution, but it works. -.-
 
 ## Techincal Debt
 - Error Handling
+- CoreData Singleton (not good for testing)
+- Unit Tests
